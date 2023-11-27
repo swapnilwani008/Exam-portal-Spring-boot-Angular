@@ -1,0 +1,21 @@
+<mat-card class="mt20">
+    <h1 class="ml20 mt20" style="font-size: 40px;">All Categories</h1>
+  
+    <ng-container *ngFor="let c of categories">
+      <mat-list-item class="mt20">
+        <div class="list-item-container">
+          <mat-icon mat-list-icon class="mr20">category</mat-icon>
+          <div>
+            <div mat-line style="font-size: medium;">{{ c.title }}</div>
+            <div mat-line class="ml20 mt10 mb20">{{ c.description }}</div>
+          </div>
+        </div>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </ng-container>
+  
+    <div class="container text-center mt20 mb20">
+      <button routerLink="/admin/add-category" mat-raised-button color="accent">Add New Category</button>
+    </div>
+  </mat-card>
+  

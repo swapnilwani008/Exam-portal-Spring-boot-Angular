@@ -1,0 +1,11 @@
+.list-item-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mat-icon {
+    margin-right: 8px; /* Adjust as needed */
+  }
+  
+  /* Add other styles as needed */
+  

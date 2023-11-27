@@ -1,0 +1,19 @@
+button {
+    background-color: rgb(4, 1, 35) !important;/* Change this to your desired button color */
+    color: white !important;
+    transition: background-color 0.3s ease !important; /* Optional: Add a smooth transition effect */
+  }
+  
+button:hover {
+    background-color: rgb(8, 193, 42) !important; /* Change this to your desired hover color with transparency */
+}
+.reset{
+    background-color: rgb(255, 0, 0) !important;/* Change this to your desired button color */
+    color: white !important;
+    transition: background-color 0.3s ease !important; /* Optional: Add a smooth transition effect */
+
+}
+
+.reset:hover{
+    background-color: rgb(246, 154, 7) !important; /* Change this to your desired hover color with transparency */
+}

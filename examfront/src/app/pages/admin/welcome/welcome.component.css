@@ -1,0 +1,17 @@
+div{
+    height: 580px;
+    color: #fff;
+    background-image: url("../../../../assets/adminWelcome.jpg");
+    background-size: 100%;
+    background-size: cover;
+    margin-right: 20px;
+  }
+
+  h1{
+    margin-left: 340px;
+    padding-top: 325px;
+    transform: rotate(-5deg);
+    font-size: 50px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

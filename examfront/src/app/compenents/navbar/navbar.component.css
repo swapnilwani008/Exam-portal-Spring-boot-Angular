@@ -1,0 +1,26 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+mat-toolbar {
+    background-color: rgb(4, 1, 35); /* Change this to your desired navbar color */
+    color: white;
+}
+button {
+  background-color: rgb(4, 1, 35);/* Change this to your desired button color */
+  color: white;
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+button:hover {
+  background-color: rgb(255, 99, 1); /* Change this to your desired hover color with transparency */
+}
+.custom-icon {
+  background-image: url('../../../assets/icon.png');
+  background-size: cover; /* or contain, depending on your needs */
+  display: inline-block;
+  width: 24px; /* adjust the size as needed */
+  height: 24px;
+}
+
+
