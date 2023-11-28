@@ -20,7 +20,7 @@
         <small>{{login.getUser().username}}</small>
     </a> -->
     <button *ngIf="isLoggedIn && user"  mat-button class="example-icon favorite-icon "
-    aria-label="Example icon-button with heart icon" routerLink="/admin/profile" >{{login.getUser().username}}</button>
+    aria-label="Example icon-button with heart icon" [routerLink]="login.getUserRole() === 'ADMIN' ? '/admin/profile' : '/user-dashboard/0'" >{{login.getUser().username}}</button>
 
     <button (click)="logout()"  *ngIf="isLoggedIn"  mat-button class="example-icon favorite-icon mr40 ml20"
         aria-label="Example icon-button with heart icon">
