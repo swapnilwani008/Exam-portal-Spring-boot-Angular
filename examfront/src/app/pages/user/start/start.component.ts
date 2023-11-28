@@ -19,6 +19,7 @@ export class StartComponent implements OnInit{
   isSubmit= false;
   timer:any;
 
+  
   constructor(private locationSt:LocationStrategy, private _route:ActivatedRoute, private _question:QuestionService){}
   
   ngOnInit(): void {
@@ -26,6 +27,7 @@ export class StartComponent implements OnInit{
     this.qid=this._route.snapshot.params['qid'];
     console.log('qid: ',this.qid);
     this.loadQuestions();
+    
     
   }
   loadQuestions() {
